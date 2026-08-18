@@ -72,13 +72,15 @@ footer{padding:28px 0;border-top:1px solid #efddd6;color:#8a6c63;font-size:12px}
 <footer><div class="wrap foot"><div>© 2026 Dream Closet by Rukaiya</div><div>Elegant fashion • Thoughtfully curated</div></div></footer>
 <a class="floating-wa wa" href="#" aria-label="Chat on WhatsApp">WA</a>
 <script>
-const WHATSAPP_NUMBER = '91XXXXXXXXXX'; // Replace with the real WhatsApp number, country code included, no + or spaces.
-const msg = encodeURIComponent('Hi Dream Closet by Rukaiya, I would like to know more about your collection.');
-document.querySelectorAll('.wa').forEach(a=>a.addEventListener('click',e=>{
-  e.preventDefault();
-  if(WHATSAPP_NUMBER.includes('X')){alert('Please add the real WhatsApp number in the WHATSAPP_NUMBER line near the bottom of index.html.');return;}
-  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`,'_blank');
-}));
+const WHATSAPP_COMMUNITY_LINK =
+  'https://chat.whatsapp.com/Dm6kvgORD4cKAiFqFuPaDr?s=cl&p=a&ilr=1';
+
+document.querySelectorAll('.wa').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    window.open(WHATSAPP_COMMUNITY_LINK, '_blank');
+  });
+});
 </script>
 </body>
 </html>
