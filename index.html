@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dream Closet by Rukaiya</title>
+<meta name="description" content="Dream Closet by Rukaiya — elegant ready-made dresses, dress materials and thoughtfully curated women's fashion." />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Italiana&family=Montserrat:wght@300;400;500;600&display=swap');
+:root{
+  --ink:#4b2d28;--rose:#bb7a66;--rose2:#d8a18f;--gold:#b8735d;--cream:#fff9f4;--blush:#f7e8e1;--muted:#8c6d63;--card:#fffdfb;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;max-width:100%;overflow-x:hidden}
+body{margin:0;width:100%;max-width:100%;background:linear-gradient(180deg,#fffaf6,#fff,#fff8f4);color:var(--ink);font-family:Montserrat,Arial,sans-serif;overflow-x:hidden}
+img,svg,video,canvas{display:block;max-width:100%}
+.wrap{width:min(1180px,calc(100% - 32px));max-width:100%;margin:auto}
+.hero,.story,.cta,section,nav,footer{max-width:100%;overflow-x:clip}
+.hero-grid>* ,.story-grid>* ,.cta-box>* ,.cards>* ,.testimonials>*{min-width:0}
+a{text-decoration:none;color:inherit}
+nav{position:sticky;top:0;z-index:50;background:rgba(255,250,247,.82);backdrop-filter:blur(16px);border-bottom:1px solid rgba(184,115,93,.15)}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-family:Italiana,serif;letter-spacing:.18em;font-size:20px}.brand small{display:block;font:400 11px Montserrat;letter-spacing:.2em;color:var(--rose)}
+.links{display:flex;gap:28px;align-items:center;font-size:12px;letter-spacing:.12em}.pill{padding:13px 20px;border-radius:999px;background:linear-gradient(135deg,#b96f5b,#d89a83);color:white;box-shadow:0 12px 30px rgba(178,112,91,.25)}
+.hero{position:relative;min-height:780px;display:grid;align-items:center;isolation:isolate}.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 75% 30%,rgba(223,166,145,.28),transparent 30%),radial-gradient(circle at 15% 30%,rgba(246,210,196,.55),transparent 32%);z-index:-2}.hero:after{content:"";position:absolute;width:680px;height:680px;border-radius:50%;right:-180px;top:70px;background:linear-gradient(145deg,rgba(255,255,255,.9),rgba(237,189,170,.26));filter:blur(.2px);box-shadow:inset 0 0 80px rgba(255,255,255,.8);z-index:-1}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}.eyebrow{font-size:12px;letter-spacing:.24em;color:var(--rose);text-transform:uppercase}.hero h1{font-family:Cormorant Garamond,serif;font-weight:500;font-size:72px;line-height:.95;margin:16px 0 24px}.hero h1 em{font-weight:400;color:#a65e4e}.hero p{max-width:610px;line-height:1.9;color:#76594f;font-size:15px}.actions{display:flex;gap:14px;margin-top:30px}.ghost{padding:13px 20px;border:1px solid rgba(184,115,93,.4);border-radius:999px}
+.logo-stage{position:relative;perspective:1200px}.logo-card{transform:rotateY(-8deg) rotateX(4deg);transition:.5s;filter:drop-shadow(0 35px 35px rgba(102,58,46,.2));border-radius:42px;overflow:hidden}.logo-card:hover{transform:rotateY(0) rotateX(0) translateY(-6px)}.logo-card img{display:block;width:100%}.ribbon{position:absolute;inset:auto -120px 40px 30px;height:34px;background:linear-gradient(90deg,transparent,#d99b88,#f7d8cc,#b86f5c,transparent);border-radius:50%;transform:rotate(-7deg);filter:blur(1px);opacity:.65}
+.features{margin-top:-56px;position:relative;z-index:4}.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);background:rgba(255,255,255,.9);border:1px solid rgba(184,115,93,.12);box-shadow:0 18px 45px rgba(99,59,47,.08);border-radius:24px;padding:28px}.feature{text-align:center;padding:10px 18px;border-right:1px solid #edd7cf}.feature:last-child{border:0}.feature b{font-family:Cormorant Garamond;font-size:22px}.icon{width:48px;height:48px;border-radius:50%;border:1px solid #e0b5a6;display:grid;place-items:center;margin:0 auto 12px;font-size:22px}
+section{padding:100px 0}.section-title{text-align:center;margin-bottom:38px}.section-title h2{font-family:Cormorant Garamond;font-size:48px;margin:6px 0}.section-title p{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.card{background:white;border-radius:20px;overflow:hidden;box-shadow:0 14px 35px rgba(91,55,45,.08);transition:.35s;transform-style:preserve-3d}.card:hover{transform:translateY(-10px) rotateX(2deg)}.card img{width:100%;height:320px;object-fit:cover}.card .body{padding:18px 20px}.card h3{font-family:Cormorant Garamond;font-size:26px;margin:0 0 8px}.card span{color:var(--rose);font-size:12px;letter-spacing:.12em}
+.story{background:linear-gradient(135deg,#fff6f1,#f9e5dc)}.story-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}.story h2{font-family:Cormorant Garamond;font-size:56px;margin:8px 0 20px}.story ul{padding:0;list-style:none;line-height:2.2;color:#6c5048}.story li:before{content:'✦';color:var(--rose);margin-right:12px}.rack{position:relative}.rack img{width:100%;border-radius:180px 30px 180px 30px;box-shadow:0 30px 60px rgba(96,57,47,.14)}
+.testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.quote{background:#fff;border:1px solid #f0ddd6;border-radius:18px;padding:28px;box-shadow:0 10px 28px rgba(100,60,50,.06)}.stars{color:#b86f5c;letter-spacing:.2em}.quote p{line-height:1.8;color:#6d534b}.quote b{font-family:Cormorant Garamond;font-size:21px}
+.cta{padding:40px 0 110px}.cta-box{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;background:linear-gradient(135deg,#f9e6de,#f5d6cb);border-radius:32px;overflow:hidden;padding:48px;position:relative}.cta h2{font-family:Cormorant Garamond;font-size:48px;margin:8px 0 12px}.cta p{color:#72564e;line-height:1.8}.phone{justify-self:end;width:min(420px,100%);transform:rotate(2deg);filter:drop-shadow(0 22px 30px rgba(77,44,38,.2));border-radius:26px}
+footer{padding:28px 0;border-top:1px solid #efddd6;color:#8a6c63;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.floating-wa{position:fixed;right:22px;bottom:22px;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#25D366;color:white;font-weight:bold;box-shadow:0 14px 30px rgba(0,0,0,.18);z-index:60}
+@media(max-width:900px){
+  .wrap{width:min(100% - 28px,760px)}
+  .nav{height:70px;gap:12px}.brand{font-size:17px;letter-spacing:.13em}.links{display:none}
+  .hero{min-height:auto;padding:64px 0 96px;overflow:hidden}.hero:after{width:460px;height:460px;right:-250px;top:180px}
+  .hero-grid,.story-grid,.cta-box{grid-template-columns:minmax(0,1fr);gap:38px}
+  .hero h1{font-size:clamp(46px,8vw,58px);line-height:1}.hero p{font-size:14px}
+  .logo-stage{width:100%;max-width:620px;margin-inline:auto;overflow:visible}.logo-card{transform:none;border-radius:28px}.logo-card:hover{transform:translateY(-4px)}
+  .ribbon{right:-20px;left:20px}
+  .features{margin-top:-42px}.feature-grid{grid-template-columns:1fr 1fr;padding:22px}.feature:nth-child(2){border-right:0}.feature:nth-child(-n+2){border-bottom:1px solid #edd7cf}
+  section{padding:78px 0}.cards{grid-template-columns:1fr 1fr}.card img{height:290px}.testimonials{grid-template-columns:1fr}
+  .story h2,.cta h2{font-size:48px}.phone{justify-self:center;width:min(390px,100%)}.cta-box{padding:36px}
+}
+@media(max-width:560px){
+  .wrap{width:calc(100% - 24px)}
+  .nav{height:64px}.brand{font-size:15px;letter-spacing:.1em;white-space:nowrap}.brand small{font-size:9px;letter-spacing:.15em}
+  .hero{padding:52px 0 84px}.hero:after{width:340px;height:340px;right:-220px;top:240px}.hero-grid{gap:30px}
+  .eyebrow{font-size:10px;letter-spacing:.18em}.hero h1{font-size:clamp(40px,12vw,49px);margin:12px 0 18px}.hero h1 br{display:none}.hero p{line-height:1.75}
+  .actions{flex-direction:column;align-items:stretch}.actions a{text-align:center;width:100%}.pill,.ghost{padding:14px 17px}
+  .logo-stage{width:100%}.logo-card{border-radius:22px}.ribbon{display:none}
+  .features{margin-top:-32px}.feature-grid{grid-template-columns:1fr;padding:16px;border-radius:20px}.feature{border-right:0;border-bottom:1px solid #edd7cf;padding:18px 12px}.feature:nth-child(2){border-bottom:1px solid #edd7cf}.feature:last-child{border-bottom:0}
+  section{padding:64px 0}.section-title{margin-bottom:26px}.section-title h2,.story h2,.cta h2{font-size:clamp(36px,10vw,42px);line-height:1.05}.section-title p{font-size:13px;line-height:1.7}
+  .cards{grid-template-columns:minmax(0,1fr);gap:16px}.card img{height:auto;aspect-ratio:4/5}.card .body{padding:16px 18px}
+  .story-grid{gap:32px}.story ul{font-size:14px;line-height:1.9}.rack img{border-radius:90px 20px 90px 20px}
+  .quote{padding:22px}.cta{padding:24px 0 72px}.cta-box{padding:24px;border-radius:24px;gap:24px}.cta p{font-size:14px}.phone{width:100%;max-width:340px}
+  .foot{flex-direction:column;text-align:center;align-items:center}.floating-wa{right:14px;bottom:14px;width:54px;height:54px}
+}
+@media(max-width:360px){.wrap{width:calc(100% - 18px)}.brand{font-size:13px}.hero h1{font-size:38px}.cta-box{padding:20px}.section-title h2,.story h2,.cta h2{font-size:34px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="brand" href="#home">DREAM CLOSET<small>BY RUKAIYA</small></a><div class="links"><a href="#home">HOME</a><a href="#collection">COLLECTION</a><a href="#about">ABOUT</a><a href="#reviews">REVIEWS</a><a href="#contact">CONTACT</a><a class="pill wa" href="#">SHOP ON WHATSAPP</a></div></div></nav>
+<header class="hero" id="home"><div class="wrap hero-grid"><div><div class="eyebrow">Dream Closet by Rukaiya</div><h1>Timeless Outfits.<br><em>Thoughtfully Yours.</em></h1><p>Elegant ready-made dresses and dress materials, thoughtfully selected for everyday confidence, festive moments and everything in between.</p><div class="actions"><a class="pill" href="#collection">Explore Collection</a><a class="ghost" href="#about">Our Story</a></div></div><div class="logo-stage"><div class="logo-card"><img src="assets/logo.png" alt="Dream Closet by Rukaiya logo"></div><div class="ribbon"></div></div></div></header>
+<div class="wrap features"><div class="feature-grid"><div class="feature"><div class="icon">✧</div><b>Premium Quality</b><p>Carefully selected fabrics.</p></div><div class="feature"><div class="icon">❀</div><b>Elegant Designs</b><p>Styles with a graceful finish.</p></div><div class="feature"><div class="icon">♡</div><b>Made with Love</b><p>Thoughtfully curated for you.</p></div><div class="feature"><div class="icon">⌁</div><b>Easy Ordering</b><p>Chat directly on WhatsApp.</p></div></div></div>
+<section id="collection"><div class="wrap"><div class="section-title"><div class="eyebrow">Our Collection</div><h2>Styles for Every You</h2><p>From everyday elegance to festive dressing.</p></div><div class="cards"><article class="card"><img src="assets/kurti.jpg" alt="Elegant kurti"><div class="body"><h3>Kurtis</h3><span>EXPLORE →</span></div></article><article class="card"><img src="assets/suit.jpg" alt="Women's suit"><div class="body"><h3>Suit Sets</h3><span>EXPLORE →</span></div></article><article class="card"><img src="assets/coord.jpg" alt="Women's co-ord set"><div class="body"><h3>Co-ord Sets</h3><span>EXPLORE →</span></div></article><article class="card"><img src="assets/festive.jpg" alt="Festive wear"><div class="body"><h3>Festive Wear</h3><span>EXPLORE →</span></div></article></div></div></section>
+<section class="story" id="about"><div class="wrap story-grid"><div><div class="eyebrow">Why Dream Closet?</div><h2>Because You Deserve the Best</h2><p>Dream Closet by Rukaiya is built around a simple idea: beautiful outfits should feel special, comfortable and easy to choose.</p><ul><li>Trendy yet timeless designs</li><li>Comfortable, premium-feel fabrics</li><li>Ready-made dresses and dress materials</li><li>Styles for everyday and special occasions</li><li>Personal, direct ordering through WhatsApp</li></ul><a class="pill wa" href="#">Ask Us on WhatsApp</a></div><div class="rack"><img src="assets/rack.jpg" alt="Dream Closet clothing collection"></div></div></section>
+<section id="reviews"><div class="wrap"><div class="section-title"><div class="eyebrow">What Customers Say</div><h2>Loved by the Dream Closet Family</h2></div><div class="testimonials"><div class="quote"><div class="stars">★★★★★</div><p>“The quality is lovely and the outfit feels even better in person.”</p><b>Ayesha</b></div><div class="quote"><div class="stars">★★★★★</div><p>“Beautiful designs, elegant finishing and an easy ordering experience.”</p><b>Neha</b></div><div class="quote"><div class="stars">★★★★★</div><p>“A very graceful collection with comfortable fabrics and premium presentation.”</p><b>Pooja</b></div></div></div></section>
+<section class="cta" id="contact"><div class="wrap"><div class="cta-box"><div><div class="eyebrow">Let's Connect</div><h2>Have a Question or Want to Order?</h2><p>Chat with Dream Closet directly on WhatsApp for product details, availability and ordering.</p><a class="pill wa" href="#">Chat on WhatsApp</a><p style="font-size:12px;margin-top:18px">Email: dreamcloset@gmail.com</p></div><img class="phone" src="assets/whatsapp.jpg" alt="WhatsApp ordering"></div></div></section>
+<footer><div class="wrap foot"><div>© 2026 Dream Closet by Rukaiya</div><div>Elegant fashion • Thoughtfully curated</div></div></footer>
+<a class="floating-wa wa" href="#" aria-label="Chat on WhatsApp">WA</a>
+<script>
+const WHATSAPP_NUMBER = '91XXXXXXXXXX'; // Replace with the real WhatsApp number, country code included, no + or spaces.
+const msg = encodeURIComponent('Hi Dream Closet by Rukaiya, I would like to know more about your collection.');
+document.querySelectorAll('.wa').forEach(a=>a.addEventListener('click',e=>{
+  e.preventDefault();
+  if(WHATSAPP_NUMBER.includes('X')){alert('Please add the real WhatsApp number in the WHATSAPP_NUMBER line near the bottom of index.html.');return;}
+  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`,'_blank');
+}));
+</script>
+</body>
+</html>
